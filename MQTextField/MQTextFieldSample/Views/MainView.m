@@ -77,6 +77,7 @@
 													   placeholder:@"Please enter a password"
 													 returnKeyType:UIReturnKeyNext
 															   tag:MainViewPasswordTextFieldTag];
+		_passwordTextField.secureTextEntry = YES;
 
 		_phoneNumberTextField = [[MQTextField alloc] initWithDelegate:delegate
 													   textFieldStyle:MQTextFieldStyleFlatValidationWithoutStroke
@@ -115,12 +116,9 @@
 
 	_descriptionLabel.frame = _descriptionView.bounds;
 
-	yOrigin += _descriptionView.frame.size.height - (_padding * 2.0f);
+	yOrigin += _descriptionView.frame.size.height + (_padding * 2.0f);
 
-	_scrollView.frame = CGRectMake(xOrigin,
-								   yOrigin,
-								   bounds.size.width,
-								   bounds.size.height - _descriptionView.frame.size.height);
+	_scrollView.frame = bounds;
 
 	_firstNameTextField.frame = CGRectMake(xOrigin,
 										   yOrigin,

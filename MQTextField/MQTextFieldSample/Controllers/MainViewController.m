@@ -29,7 +29,7 @@
 {
     [super viewDidLoad];
 
-	self.title = @"MQTextField asdfasfsafdf";
+	self.title = @"MQTextField";
 	self.edgesForExtendedLayout = UIRectEdgeNone;
 
 	// Allow a tap outside of the text fields to hide keyboard.
@@ -87,6 +87,8 @@
 {
 	if (textField.tag == MainViewPhoneNumberTextFieldTag) {
 		[textField resignFirstResponder];
+	} else {
+		[[self.mainView viewWithTag:textField.tag + 1] becomeFirstResponder];
 	}
 	return YES;
 }
@@ -194,10 +196,7 @@
 			}
 			case MainViewPhoneNumberTextFieldTag:
 			{
-				NSCharacterSet *characterSet = [NSCharacterSet characterSetWithCharactersInString:@"()- "];
-				NSString *numberStr = [textField.text stringByTrimmingCharactersInSet:characterSet];
-				BOOL validPhoneNumber = numberStr.length == 10;
-				if (validPhoneNumber) {
+				if (textField.text.length == 14) {
 					if ([descriptionLabel.text isEqualToString:PHONE_INVALID]) {
 						descriptionLabel.text = nil;
 					}
