@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A32BDDCA-5706-42AF-B5EF-57D1B2C46FB3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MQTextFieldSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5AD2C473-43B7-4CFA-92DF-1F2E3239E543</key>
+		<string>https://github.com/pxpgraphics/mqtextfield.git</string>
+		<key>D891A035-BE95-43D8-93EC-134B092F2882</key>
+		<string>https://github.com/pxpgraphics/mqtextfield.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MQTextField/MQTextFieldSample.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5AD2C473-43B7-4CFA-92DF-1F2E3239E543</key>
+		<string>../..</string>
+		<key>D891A035-BE95-43D8-93EC-134B092F2882</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pxpgraphics/mqtextfield.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5AD2C473-43B7-4CFA-92DF-1F2E3239E543</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5AD2C473-43B7-4CFA-92DF-1F2E3239E543</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mqtextfield</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D891A035-BE95-43D8-93EC-134B092F2882</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MQTextField</string>
+		</dict>
+	</array>
+</dict>
+</plist>
