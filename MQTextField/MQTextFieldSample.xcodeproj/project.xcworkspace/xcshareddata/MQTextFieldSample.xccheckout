@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>779FA70E-EC22-43EC-854F-0ED93967DCC3</string>
+	<string>E6514159-61B9-405C-8D78-A2E52250AA5B</string>
 	<key>IDESourceControlProjectName</key>
 	<string>MQTextFieldSample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,7 +14,7 @@
 		<string>https://github.com/pxpgraphics/mqtextfield.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MQTextFieldSample/MQTextFieldSample.xcodeproj/project.xcworkspace</string>
+	<string>MQTextField/MQTextFieldSample.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5AD2C473-43B7-4CFA-92DF-1F2E3239E543</key>

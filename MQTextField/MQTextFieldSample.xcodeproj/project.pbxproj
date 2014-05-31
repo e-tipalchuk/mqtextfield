@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E33669340E244629FD1A02E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2697FC3456824E53AC5BC87C /* libPods.a */; };
-		3DBD0D9B21BE44CC8835121E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2697FC3456824E53AC5BC87C /* libPods.a */; };
 		AD0CC1C3193914AA007E01D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0CC1C2193914AA007E01D6 /* Foundation.framework */; };
 		AD0CC1C5193914AA007E01D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0CC1C4193914AA007E01D6 /* CoreGraphics.framework */; };
 		AD0CC1C7193914AA007E01D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0CC1C6193914AA007E01D6 /* UIKit.framework */; };
@@ -24,6 +22,8 @@
 		AD0CC1F9193928EA007E01D6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0CC1F8193928EA007E01D6 /* MainViewController.m */; };
 		AD0CC1FA193928EA007E01D6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0CC1F8193928EA007E01D6 /* MainViewController.m */; };
 		AD0CC1FE19392922007E01D6 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0CC1FD19392922007E01D6 /* MainView.m */; };
+		AD0E864419395F9A0064CDBF /* MQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0E864319395F9A0064CDBF /* MQTextField.m */; };
+		AD0E864519395F9A0064CDBF /* MQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0E864319395F9A0064CDBF /* MQTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		142FFADD18AD46BF9CFC4112 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		2697FC3456824E53AC5BC87C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0CC1BF193914AA007E01D6 /* MQTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0CC1C2193914AA007E01D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,6 +58,8 @@
 		AD0CC1F8193928EA007E01D6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Controllers/MainViewController.m; sourceTree = "<group>"; };
 		AD0CC1FC19392922007E01D6 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainView.h; path = Views/MainView.h; sourceTree = "<group>"; };
 		AD0CC1FD19392922007E01D6 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = Views/MainView.m; sourceTree = "<group>"; };
+		AD0E864219395F9A0064CDBF /* MQTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MQTextField.h; path = ../../Code/MQTextField.h; sourceTree = "<group>"; };
+		AD0E864319395F9A0064CDBF /* MQTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MQTextField.m; path = ../../Code/MQTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +70,6 @@
 				AD0CC1C5193914AA007E01D6 /* CoreGraphics.framework in Frameworks */,
 				AD0CC1C7193914AA007E01D6 /* UIKit.framework in Frameworks */,
 				AD0CC1C3193914AA007E01D6 /* Foundation.framework in Frameworks */,
-				0E33669340E244629FD1A02E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +80,6 @@
 				AD0CC1DC193914AA007E01D6 /* XCTest.framework in Frameworks */,
 				AD0CC1DE193914AA007E01D6 /* UIKit.framework in Frameworks */,
 				AD0CC1DD193914AA007E01D6 /* Foundation.framework in Frameworks */,
-				3DBD0D9B21BE44CC8835121E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +93,6 @@
 				AD0CC1E1193914AA007E01D6 /* MQTextFieldTests */,
 				AD0CC1C1193914AA007E01D6 /* Frameworks */,
 				AD0CC1C0193914AA007E01D6 /* Products */,
-				142FFADD18AD46BF9CFC4112 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,8 +123,10 @@
 				AD0CC1D1193914AA007E01D6 /* AppDelegate.h */,
 				AD0CC1D2193914AA007E01D6 /* AppDelegate.m */,
 				AD0CC1FB193928F0007E01D6 /* Controllers */,
-				AD0CC1FF19392926007E01D6 /* Views */,
+				AD0E864219395F9A0064CDBF /* MQTextField.h */,
+				AD0E864319395F9A0064CDBF /* MQTextField.m */,
 				AD0CC1C9193914AA007E01D6 /* Supporting Files */,
+				AD0CC1FF19392926007E01D6 /* Views */,
 			);
 			path = MQTextFieldSample;
 			sourceTree = "<group>";
@@ -187,11 +187,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD0CC1EB193914AA007E01D6 /* Build configuration list for PBXNativeTarget "MQTextField" */;
 			buildPhases = (
-				7DB1D83C357C4809B5BD6AF7 /* Check Pods Manifest.lock */,
 				AD0CC1BB193914AA007E01D6 /* Sources */,
 				AD0CC1BC193914AA007E01D6 /* Frameworks */,
 				AD0CC1BD193914AA007E01D6 /* Resources */,
-				C811DC2AFF164C03B666EBB9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,11 +204,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD0CC1EE193914AA007E01D6 /* Build configuration list for PBXNativeTarget "MQTextFieldTests" */;
 			buildPhases = (
-				BF1E549451FC45FDBFF2365F /* Check Pods Manifest.lock */,
 				AD0CC1D6193914AA007E01D6 /* Sources */,
 				AD0CC1D7193914AA007E01D6 /* Frameworks */,
 				AD0CC1D8193914AA007E01D6 /* Resources */,
-				9138E4F986DF49D9B54932D5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,74 +270,12 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		7DB1D83C357C4809B5BD6AF7 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9138E4F986DF49D9B54932D5 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BF1E549451FC45FDBFF2365F /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C811DC2AFF164C03B666EBB9 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		AD0CC1BB193914AA007E01D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0E864419395F9A0064CDBF /* MQTextField.m in Sources */,
 				AD0CC1D3193914AA007E01D6 /* AppDelegate.m in Sources */,
 				AD0CC1FE19392922007E01D6 /* MainView.m in Sources */,
 				AD0CC1F9193928EA007E01D6 /* MainViewController.m in Sources */,
@@ -355,6 +289,7 @@
 			files = (
 				AD0CC1E8193914AA007E01D6 /* MQTextFieldTests.m in Sources */,
 				AD0CC1FA193928EA007E01D6 /* MainViewController.m in Sources */,
+				AD0E864519395F9A0064CDBF /* MQTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,7 +397,6 @@
 		};
 		AD0CC1EC193914AA007E01D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 142FFADD18AD46BF9CFC4112 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -476,7 +410,6 @@
 		};
 		AD0CC1ED193914AA007E01D6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 142FFADD18AD46BF9CFC4112 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -490,7 +423,6 @@
 		};
 		AD0CC1EF193914AA007E01D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 142FFADD18AD46BF9CFC4112 /* Pods.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MQTextFieldSample.app/MQTextFieldSample";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -513,7 +445,6 @@
 		};
 		AD0CC1F0193914AA007E01D6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 142FFADD18AD46BF9CFC4112 /* Pods.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MQTextFieldSample.app/MQTextFieldSample";
 				FRAMEWORK_SEARCH_PATHS = (
