@@ -29,7 +29,7 @@
 {
     [super viewDidLoad];
 
-	self.title = @"MQTextField asdfasfsafdf";
+	self.title = @"MQTextField";
 	self.edgesForExtendedLayout = UIRectEdgeNone;
 
 	// Allow a tap outside of the text fields to hide keyboard.

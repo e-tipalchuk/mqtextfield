@@ -77,6 +77,7 @@
 													   placeholder:@"Please enter a password"
 													 returnKeyType:UIReturnKeyNext
 															   tag:MainViewPasswordTextFieldTag];
+		_passwordTextField.secureTextEntry = YES;
 
 		_phoneNumberTextField = [[MQTextField alloc] initWithDelegate:delegate
 													   textFieldStyle:MQTextFieldStyleFlatValidationWithoutStroke
