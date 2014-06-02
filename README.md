@@ -10,7 +10,7 @@ MQTextField is a replacement control for UITextField that provides several usefu
 #Installation
 
 ##CocoaPods
-The easiest and highly recommended way to add DPTextField to your project is to use [CocoaPods](http://cocoapods.org/).
+The easiest and highly recommended way to add MQTextField to your project is to use [CocoaPods](http://cocoapods.org/).
 
 Add the pod to your `Podfile`:
 ```
